@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="./Stylesheets/icons.uss" />
+    <Style src="./Stylesheets/text-chat.uss" />
+    <Blocks.Vivox.TextChatLog name="ChatContainer" class="blocks-modal blocks-container--horizontal--grow">
+        <ui:VisualElement class="blocks-container--horizontal--grow blocks-element--full-width">
+            <ui:Label name="EmptyLabel" text="Please join a text-enabled channel to enable messaging" class="vivox-text-chat__empty-label" />
+            <ui:ListView name="ChatLog" selection-type="None" virtualization-method="DynamicHeight" class="blocks-scroll-view blocks-element--width--full blocks-list-view--no-hover vivox-text-chat__list" />
+            <ui:VisualElement name="InputContainer" enabled="true" class="blocks-element--width--full blocks-container--horizontal vivox-text-chat__input-container">
+                <ui:TextField name="ChatInputField" placeholder-text="" enabled="false" class="blocks-textfield" />
+                <ui:Button name="SendButton" class="blocks-button blocks-button--round vivox-icon-arrow-up" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </Blocks.Vivox.TextChatLog>
+</ui:UXML>

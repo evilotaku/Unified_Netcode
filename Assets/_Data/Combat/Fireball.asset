@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f578b53b61b319b4b8595e6511368a95, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: Assembly-CSharp::Unity.Netcode.AttackData
+  Clip: {fileID: 1827226128182048838, guid: c73af57e4f1f53f46ad4a37edce71cf5, type: 3}
+  PlayClipDirectly: 1
+  AnimatorAttackType: 0
+  BlendInTime: 0.08
+  BlendOutTime: 0.15
+  Duration: 0.7
+  StartupDelay: 0.1
+  HitWindows: []
+  UseClipHitWindows: 0
+  MoveSpeedMultiplier: 0.3
+  Damage: 15
+  KnockbackSpeed: 9
+  KnockbackUpSpeed: 3
+  HitStunTime: 0.4
+  CanBeParried: 1
+  FollowUps: []
+  ComboWindowStart: 1
+  ComboWindowEnd: 1
+  CancelTime: 1
+  ProjectilePrefab: {fileID: 3264669599062852462, guid: cd44ab4bb7c03b945ad21aef54f278a5, type: 3}
+  ProjectileTime: 0.35
+  ProjectileOffset: {x: 0, y: 1.3, z: 0.8}
+  Effects: []
+  ImpactPrefab: {fileID: 0}
+  ImpactSound: {fileID: 0}
+  BlockedPrefab: {fileID: 0}
+  BlockedSound: {fileID: 0}
+  ImpactVolume: 1
+  HitStop: 0.1
+  CameraShake: 0.5

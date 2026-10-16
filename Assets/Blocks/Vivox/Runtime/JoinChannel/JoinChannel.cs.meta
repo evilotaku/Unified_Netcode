@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ca86e77f309741e6a552fd6a6c19ffc9
+timeCreated: 1755872431
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/JoinChannel/JoinChannel.cs
+  uploadId: 887828

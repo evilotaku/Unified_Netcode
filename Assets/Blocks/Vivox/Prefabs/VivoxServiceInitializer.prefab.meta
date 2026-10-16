@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e7d74cc7756180a4cb811700f1d662c6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Prefabs/VivoxServiceInitializer.prefab
+  uploadId: 887828

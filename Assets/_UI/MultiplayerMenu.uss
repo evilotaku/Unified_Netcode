@@ -1,0 +1,71 @@
+/*
+2026-09-27 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+*/
+.container {
+    flex-grow: 1;
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-panel {
+    width: 400px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+    padding: 20px;
+    border-width: 1px;
+    border-color: rgb(70, 70, 70);
+}
+
+.header {
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: white;
+    margin-bottom: 20px;
+    -unity-text-align: middle-center;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+    margin-bottom: 10px;
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+.button {
+    height: 40px;
+    background-color: rgb(0, 120, 215);
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: rgb(0, 150, 255);
+}
+
+.status-label {
+    margin-top: 10px;
+    color: rgb(255, 200, 0);
+    -unity-text-align: middle-center;
+}
+
+.join-code-display {
+    margin-top: 10px;
+    color: rgb(0, 255, 0);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}

@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="./Stylesheets/icons.uss" />
+    <Style src="./Stylesheets/channel-roster.uss" />
+    <engine:VisualElement class="blocks-modal vivox-channel-roster">
+        <engine:VisualElement class="blocks-container--horizontal blocks-container--space-between blocks-modal--left-aligned-text">
+            <Blocks.Vivox.ChannelNameLabel class="blocks-element--space-right"/>
+            <Blocks.Vivox.ChannelPlayerCountLabel/>
+        </engine:VisualElement>
+        <engine:VisualElement class="blocks-container--horizontal blocks-element--space-bottom" style="flex-direction: row; align-content: auto; justify-content: flex-end;">
+            <Blocks.Vivox.CopyChannelName class="blocks-copy-session--header blocks-container--right"/>
+        </engine:VisualElement>
+        <Blocks.Vivox.VivoxRosterList/>
+    </engine:VisualElement>
+</engine:UXML>

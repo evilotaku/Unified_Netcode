@@ -1,0 +1,45 @@
+using System;
+using Unity.CharacterController;
+using Unity.Entities;
+using Unity.Mathematics;
+using Unity.Netcode;
+using UnityEngine;
+
+[GhostComponent]
+public struct FirstPersonCharacterComponent : IComponentData
+{
+    public float GroundMaxSpeed;
+    public float GroundedMovementSharpness;
+    public float AirAcceleration;
+    public float AirMaxSpeed;
+    public float AirDrag;
+    public float JumpSpeed;
+    public float3 Gravity;
+    public bool PreventAirAccelerationAgainstUngroundedHits;
+    public BasicStepAndSlopeHandlingParameters StepAndSlopeHandling;
+
+    public float MinViewAngle;
+    public float MaxViewAngle;
+
+    [GhostField]
+    public Entity ViewEntity;
+    [GhostField]
+    public float ViewPitchDegrees;
+    [GhostField]
+    public quaternion ViewLocalRotation;
+}
+
+[Serializable]
+public struct FirstPersonCharacterControl : IComponentData
+{
+    public float3 MoveVector;
+    public float2 LookDegreesDelta;
+    public bool Jump;
+}
+
+[Serializable]
+public struct FirstPersonCharacterView : IComponentData
+{
+    [NonSerialized]
+    public Entity CharacterEntity;
+}

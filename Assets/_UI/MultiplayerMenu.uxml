@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="MultiplayerMenu.uss" />
+    <ui:VisualElement name="root" class="container">
+        <ui:VisualElement class="menu-panel">
+            <ui:Label text="MULTIPLAYER MENU" class="header" />
+            
+            <ui:VisualElement class="section">
+                <ui:Label text="AUTOMATIC" class="section-title" />
+                <ui:Button name="quickJoinButton" text="Quick Join" class="button" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="section">
+                <ui:Label text="HOST GAME" class="section-title" />
+                <ui:Button name="hostButton" text="Create Lobby (Relay)" class="button" />
+                <ui:Label name="joinCodeLabel" text="" class="join-code-display" />
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="section">
+                <ui:Label text="JOIN GAME" class="section-title" />
+                <ui:TextField name="joinCodeInput" label="Join Code" class="input-field" />
+                <ui:Button name="joinButton" text="Join Lobby (Relay)" class="button" />
+            </ui:VisualElement>
+            
+            <ui:Label name="statusLabel" text="Ready" class="status-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

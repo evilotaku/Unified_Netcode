@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 109344696ceb42feb92a7ae38990c6ce
+timeCreated: 1753422557
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/AudioDeviceSelector/VivoxAudioInputVolumeSlider.cs
+  uploadId: 887828

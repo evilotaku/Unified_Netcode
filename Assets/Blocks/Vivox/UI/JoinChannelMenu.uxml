@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+<Blocks.Vivox.JoinChannel name="JoinChannel" class="blocks-modal">
+        <Bindings>
+            <ui:DataBinding property="ChannelSettings" binding-mode="ToTarget" data-source-path="" />
+        </Bindings>
+        <ui:VisualElement name="PlayerName" class="blocks-container--horizontal">
+            <ui:TextField placeholder-text="player display name" name="PlayerName" class="blocks-textfield blocks-element--width--full" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Join" class="blocks-container--horizontal blocks-element--justify-content--space-between">
+            <ui:GroupBox class="blocks-element--width--50">
+                <ui:TextField placeholder-text="channel name" name="ChannelName" class="blocks-textfield blocks-element--width--full" />
+            </ui:GroupBox>
+            <ui:GroupBox class="blocks-element--width--50">
+                <ui:Button text="Join Channel" name="JoinRoom" parse-escape-sequences="true" class="blocks-button" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </Blocks.Vivox.JoinChannel>
+</ui:UXML>

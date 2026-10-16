@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f578b53b61b319b4b8595e6511368a95, type: 3}
+  m_Name: Medium
+  m_EditorClassIdentifier: Assembly-CSharp::Unity.Netcode.AttackData
+  Clip: {fileID: 1827226128182048838, guid: c73af57e4f1f53f46ad4a37edce71cf5, type: 3}
+  PlayClipDirectly: 1
+  AnimatorAttackType: 0
+  BlendInTime: 0.08
+  BlendOutTime: 0.15
+  Duration: 0.67
+  StartupDelay: 0.2
+  HitWindows:
+  - Start: 0.35999998
+    End: 0.47999996
+    Hitbox: RightHand
+  MoveSpeedMultiplier: 0.5
+  Damage: 10
+  KnockbackSpeed: 7
+  KnockbackUpSpeed: 1.5
+  HitStunTime: 0.45
+  CanBeParried: 1
+  FollowUps:
+  - Input: 3
+    Attack: {fileID: 11400000, guid: 3b4caa568335c3248ba589dc7459265b, type: 2}
+  ComboWindowStart: 0.25
+  ComboWindowEnd: 1
+  CancelTime: 0.7
+  Effects: []
+  ImpactPrefab: {fileID: 0}
+  ImpactSound: {fileID: 0}
+  BlockedPrefab: {fileID: 0}
+  BlockedSound: {fileID: 0}
+  ImpactVolume: 1
+  HitStop: 0.05
+  CameraShake: 0.3

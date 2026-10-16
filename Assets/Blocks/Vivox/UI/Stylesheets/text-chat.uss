@@ -1,0 +1,61 @@
+.vivox-text-chat__empty-label {
+    display: none;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-inactive);
+    font-size: var(--text-sm);
+    -unity-text-align: middle-center;
+}
+
+.vivox-text-chat__empty-label--visible {
+    display: flex;
+}
+
+.vivox-text-chat__list {
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.vivox-text-chat__list--hidden {
+    display: none;
+}
+
+.vivox-text-chat__list-item {
+    width: 100%;
+    border-bottom-width: var(--width-border-md);
+    border-bottom-color: var(--color-border);
+    padding: var(--padding-sm) 0;
+}
+
+.vivox-text-chat__player-name {
+    -unity-font-style: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-bottom: var(--margin-xs);
+}
+
+.vivox-text-chat__message {
+    white-space: normal;
+    width: 100%;
+    color: var(--color-inactive);
+}
+
+.vivox-text-chat__input-container {
+    margin-top: var(--margin-md);
+}
+
+.vivox-text-chat__input-container .blocks-textfield {
+    margin-right: var(--margin-sm);
+    flex-shrink: 1;
+    min-width: 0;
+    white-space: nowrap;
+}
+
+.vivox-text-chat__input-container .blocks-textfield > .unity-base-field__input {
+    white-space: nowrap;
+    overflow: hidden;
+}

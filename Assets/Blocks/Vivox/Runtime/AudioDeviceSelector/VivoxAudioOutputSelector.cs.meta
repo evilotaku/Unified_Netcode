@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: db41ab8baec64c1ebd14e4f554048f7c
+timeCreated: 1753382862
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/AudioDeviceSelector/VivoxAudioOutputSelector.cs
+  uploadId: 887828

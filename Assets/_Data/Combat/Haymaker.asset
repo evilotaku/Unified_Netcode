@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f578b53b61b319b4b8595e6511368a95, type: 3}
+  m_Name: Haymaker
+  m_EditorClassIdentifier: Assembly-CSharp::Unity.Netcode.AttackData
+  Clip: {fileID: 1827226128182048838, guid: 868239abeebb56b46a57f7c765349467, type: 3}
+  PlayClipDirectly: 1
+  AnimatorAttackType: 0
+  BlendInTime: 0.08
+  BlendOutTime: 0.15
+  Duration: 0.9
+  StartupDelay: 0.25
+  HitWindows:
+  - Start: 0.56666666
+    End: 0.6666667
+    Hitbox: RightHand
+  MoveSpeedMultiplier: 0.2
+  Damage: 18
+  KnockbackSpeed: 12
+  KnockbackUpSpeed: 3
+  HitStunTime: 0.8
+  CanBeParried: 1
+  FollowUps: []
+  ComboWindowStart: 0.25
+  ComboWindowEnd: 1
+  CancelTime: 1
+  Effects: []
+  ImpactPrefab: {fileID: 0}
+  ImpactSound: {fileID: 0}
+  BlockedPrefab: {fileID: 0}
+  BlockedSound: {fileID: 0}
+  ImpactVolume: 1
+  HitStop: 0.1
+  CameraShake: 0.6

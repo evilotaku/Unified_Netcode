@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 660acf247a7472c4ebf66dce908ec188
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/ChannelRoster/ChannelPlayerCount/ChannelPlayerCountLabel.cs
+  uploadId: 887828

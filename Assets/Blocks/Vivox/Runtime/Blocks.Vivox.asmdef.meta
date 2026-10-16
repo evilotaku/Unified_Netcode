@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2ce9a1c12c5094a338df4341898f32d2
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/Blocks.Vivox.asmdef
+  uploadId: 887828

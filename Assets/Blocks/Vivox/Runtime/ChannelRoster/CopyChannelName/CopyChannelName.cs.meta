@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 66ed9d11172aa1f4d86d5cc6faeddca0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/ChannelRoster/CopyChannelName/CopyChannelName.cs
+  uploadId: 887828

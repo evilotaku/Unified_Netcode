@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1194ec147da678147b1511cb633ca0cc
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Scenes/RosterWithVoiceAndText.unity
+  uploadId: 887828

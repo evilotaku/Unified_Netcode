@@ -1,0 +1,15 @@
+.vivox-icon-speaker {
+    background-image: url("../../Textures/icon_speaker.png");
+}
+
+.vivox-icon-speaker-active {
+    background-image: url("../../Textures/icon_speaker_active.png");
+}
+
+.vivox-icon-speaker-muted {
+    background-image: url("../../Textures/icon_speaker_muted.png");
+}
+
+.vivox-icon-arrow-up {
+    background-image: url("../../Textures/send_button.png");
+}

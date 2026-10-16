@@ -1,0 +1,109 @@
+/* Channel roster header */
+.vivox-channel-roster .blocks-header {
+    color: var(--color-default);
+}
+
+.vivox-channel-roster .blocks-modal--left-aligned-text .blocks-label {
+    color: var(--color-inactive);
+}
+
+.vivox-channel-roster .blocks-copy-session--header .blocks-label {
+    color: var(--color-inactive);
+}
+
+/* Roster list */
+.vivox-roster-list {
+    min-width: 300px;
+    max-height: 400px;
+    width: 100%;
+}
+
+.vivox-roster-list__item-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.vivox-roster-list__empty-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-inactive);
+    font-size: var(--text-sm);
+    padding: var(--padding-md);
+}
+
+.vivox-roster-list__scroll-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.vivox-roster-list__list-item {
+    display: flex;
+    visibility: visible;
+    height: auto;
+    min-height: 48px;
+    border-bottom-width: var(--width-border-md);
+    border-bottom-color: var(--color-border);
+}
+
+/* Roster item - horizontal row */
+.vivox-roster-item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-sm) var(--padding-md);
+    min-height: var(--base-unit-xl);
+    transition-property: background-color;
+    width: 100%;
+}
+
+.vivox-roster-item:hover {
+    background-color: var(--color-hover);
+}
+
+/* Left side - player name and speaking indicator */
+.vivox-roster-item__left {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: var(--padding-md);
+}
+
+.vivox-roster-item__name {
+    margin: 0 var(--margin-xs) 0 0;
+    padding: 0;
+    align-self: center;
+    flex-shrink: 1;
+    min-width: 0;
+    -unity-text-align: middle-left;
+}
+
+/* Speaking indicator - hidden by default, shown via --visible modifier */
+.vivox-speaking-indicator {
+    display: none;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-size: contain;
+    -unity-background-scale-mode: scale-to-fit;
+    align-self: center;
+}
+
+.vivox-speaking-indicator--visible {
+    display: flex;
+}
+
+/* Mute button - hidden until voice channel is active AND row is hovered */
+.vivox-mute-button {
+    display: none;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.vivox-roster-item:hover .vivox-mute-button--active {
+    display: flex;
+}

@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2848487243268464953
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893197, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577874318210893199, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: m_Name
+      value: FirstPersonPlayer_Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 7698645590983583992, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      propertyPath: LookInputSensitivity
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -6504584963244681546, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+    - {fileID: -5050061054422645240, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+    - {fileID: 5699338776289846262, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 577874318210893199, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9151546082538955223}
+    - targetCorrespondingSourceObject: {fileID: 577874318210893199, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8919399717617979386}
+    - targetCorrespondingSourceObject: {fileID: 577874318210893199, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5669822860949498140}
+    - targetCorrespondingSourceObject: {fileID: 577874318210893199, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3869014384843470834}
+  m_SourcePrefab: {fileID: 100100000, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+--- !u!1 &3423538013470696630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 577874318210893199, guid: 8c22dcbefac332745a1efbea69cb8bfc, type: 3}
+  m_PrefabInstance: {fileID: 2848487243268464953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9151546082538955223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3423538013470696630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f668e4690f4a86838c7135ee10c69a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.NetCode::Unity.Netcode.GhostObject
+  HasOwner: 1
+  SupportAutoCommandTarget: 1
+  TrackInterpolationDelay: 0
+  GhostGroup: 0
+  UsePreSerialization: 0
+  UseSingleBaseline: 0
+  RollbackPredictedSpawnedGhostState: 0
+  RollbackPredictionOnStructuralChanges: 1
+  DefaultGhostMode: 2
+  SupportedGhostModes: 1
+  OptimizationMode: 0
+  Importance: 1
+  MaxSendRate: 0
+  SnapshotHistorySize: 0
+  SingleWorldHostInterpolationSmoothing: 1
+  prefabId: 62a8e8026577f75409d92be5da7484ec
+  prefabReference: {fileID: 0}
+  SkipAutomaticPrefabRegistration: 0
+  UseUniformScale: 0
+  <DelaySpawning>k__BackingField: 0
+  m_AllBehaviours:
+  - {fileID: 8919399717617979386}
+  <ParentReplication>k__BackingField: 0
+--- !u!114 &8919399717617979386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3423538013470696630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d01f67e636b8649918ee0e2a588367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Unity.Netcode.FirstPersonPlayerGhost
+  <Ghost>k__BackingField: {fileID: 9151546082538955223}
+--- !u!114 &5669822860949498140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3423538013470696630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 1837135865
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  GhostObject: {fileID: 9151546082538955223}
+  HasGhost: 1
+  HadBridge: 1
+  m_InScenePlacedDisabledByDefault: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 0
+  m_InScenePlaced: 0
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+  NetworkObjectBridge: {fileID: -3869014384843470834}
+--- !u!114 &-3869014384843470834
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3423538013470696630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510c5bb08d2f5724e85aa4fb66a8a4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObjectBridge
+  <Ghost>k__BackingField: {fileID: 0}

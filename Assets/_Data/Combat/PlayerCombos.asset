@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7711f3c3107db24c8c47d26991ca37f, type: 3}
+  m_Name: PlayerCombos
+  m_EditorClassIdentifier: Assembly-CSharp::Unity.Netcode.ComboSet
+  Starters:
+  - Input: 1
+    Attack: {fileID: 11400000, guid: 0cde024763da5bc42966eb031e923192, type: 2}
+  - Input: 2
+    Attack: {fileID: 11400000, guid: 135ead05ae73f8441bc9a6ec0492042e, type: 2}
+  - Input: 3
+    Attack: {fileID: 11400000, guid: 3b4caa568335c3248ba589dc7459265b, type: 2}
+  - Input: 4
+    Attack: {fileID: 11400000, guid: 85fed25b186bc0149a3a0fa989a9a1bc, type: 2}

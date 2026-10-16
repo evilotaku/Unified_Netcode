@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a4f6986670d06d140872221f15a84b39
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Settings/ChatSettings_Echo.asset
+  uploadId: 887828

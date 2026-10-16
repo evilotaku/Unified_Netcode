@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="ChannelRoster" src="../../UI/ChannelRoster.uxml?fileID=9197481963319205126&amp;guid=f5e3833453a25d44dbe3e77a4454f6d9&amp;type=3#ChannelRoster"/>
+    <engine:Template name="JoinChannelMenu" src="../../UI/JoinChannelMenu.uxml?fileID=9197481963319205126&amp;guid=0cd844f85f247421696a56bcf1ebed8c&amp;type=3#JoinChannelMenu"/>
+    <engine:Template name="TextChat" src="../../UI/TextChat.uxml?fileID=9197481963319205126&amp;guid=cafcaabbee2b74ce8b646ac1fe4251ec&amp;type=3#TextChat"/>
+    <engine:VisualElement name="All" data-source="../../Settings/ChatSettings_Group.asset?fileID=11400000&amp;guid=ddb71f9780a9cb8448e2b46584c57cc1&amp;type=2#ChatSettings_Group" class="blocks-container--horizontal" style="flex-grow: 1; align-content: center; flex-shrink: 1;">
+        <engine:VisualElement name="Left" class="blocks-element--width--50 blocks-element--space-right blocks-element--space-left" style="flex-grow: 1;">
+            <engine:Instance template="JoinChannelMenu" name="TemplateContainer" class="blocks-element--space-bottom" />
+            <engine:Instance template="ChannelRoster"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="Right" class="blocks-element--width--50 blocks-element--space-right" style="flex-grow: 1; align-self: stretch; padding-top: 16px; padding-bottom: 16px;">
+            <engine:Instance template="TextChat" style="flex-grow: 1;"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ea38dfb408bbb451680dffc59779ca13
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/TextChat/TextChatLog.cs
+  uploadId: 887828

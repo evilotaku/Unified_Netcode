@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 5fdf917818c11154abff0ceca65bd20c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 369502
+  packageName: Unity Building Block - Vivox Voice and Text
+  packageVersion: 1.0
+  assetPath: Assets/Blocks/Vivox/Runtime/ChannelRoster/ChannelName/ChannelNameLabel.cs
+  uploadId: 887828

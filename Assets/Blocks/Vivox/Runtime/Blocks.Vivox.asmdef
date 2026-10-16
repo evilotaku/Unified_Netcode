@@ -1,0 +1,19 @@
+{
+    "name": "Blocks.Vivox",
+    "rootNamespace": "Blocks.Vivox",
+    "references": [
+        "Unity.Services.Core",
+        "Unity.Services.Vivox",
+        "Unity.Services.Authentication",
+        "Blocks.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

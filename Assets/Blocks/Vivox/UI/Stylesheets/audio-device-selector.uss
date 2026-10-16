@@ -1,0 +1,58 @@
+
+.vivox-audio-device-selector__modal-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.vivox-audio-device-selector__modal-container > .blocks-modal {
+    width: 100%;
+    max-width: 512px;
+}
+
+.vivox-audio-device-selector__modal-container .blocks-dropdown {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.vivox-audio-device-selector__modal-container .blocks-dropdown > .unity-base-popup-field__input > .unity-text-element {
+    text-overflow: ellipsis;
+}
+
+.vivox-audio-device-selector__modal-container .blocks-slider {
+    width: 100%;
+}
+
+.vivox-audio-device-selector__modal-container .blocks-header--sm {
+    color: var(--color-default);
+}
+
+.vivox-audio-device-selector__modal-container .blocks-slider > .unity-base-field__label {
+    color: var(--color-neutral);
+    -unity-font-style: bold;
+    min-width: auto;
+    margin-right: var(--margin-sm);
+}
+
+.vivox-audio-device-selector__modal-container .blocks-slider .unity-base-slider__tracker {
+    background-color: var(--color-neutral);
+    border-width: 0;
+    border-radius: var(--radius-xs);
+}
+
+.vivox-audio-device-selector__modal-container .blocks-slider .unity-base-slider__dragger-border {
+    border-width: 0;
+}
+
+.vivox-audio-device-selector__modal-container .blocks-slider .unity-base-slider__dragger {
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    border-width: 0;
+    border-radius: 50%;
+    background-color: var(--color-default);
+}
+
+.vivox-audio-device-selector__modal-container .blocks-slider .unity-base-slider__drag-container {
+    flex-grow: 1;
+}

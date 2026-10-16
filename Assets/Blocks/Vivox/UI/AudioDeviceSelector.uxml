@@ -1,0 +1,18 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="./vivox-audio-device-selector.uss?fileID=7433441132597879392&amp;guid=79e23f19b4489489d957c884816e3422&amp;type=3#vivox-audio-device-selector" />
+    <engine:VisualElement class="vivox-audio-device-selector__modal-container">
+        <engine:VisualElement name="Modal" focusable="true" class="blocks-modal">
+            <engine:Label text="AUDIO DEVICE SETTINGS" name="Label" class="blocks-header blocks-element--space-bottom-lg" />
+            <engine:GroupBox class="blocks-element--full-width blocks-element--space-bottom-xl">
+                <engine:Label text="Input" class="blocks-header blocks-header--sm blocks-element--space-bottom-lg" />
+                <Blocks.Vivox.VivoxAudioInputSelector name="Input" class="blocks-dropdown blocks-element--space-bottom-lg" />
+                <Blocks.Vivox.VivoxAudioInputVolumeSlider label="Volume" low-value="0" high-value="1" value="0.5" class="blocks-slider" />
+            </engine:GroupBox>
+            <engine:GroupBox class="blocks-element--full-width">
+                <engine:Label text="Output" name="Label" class="blocks-header blocks-header--sm blocks-element--space-bottom-lg" />
+                <Blocks.Vivox.VivoxAudioOutputSelector name="Output" class="blocks-dropdown blocks-element--space-bottom-lg" />
+                <Blocks.Vivox.VivoxAudioOutputVolumeSlider label="Volume" low-value="0" high-value="1" value="0.5" class="blocks-slider" />
+            </engine:GroupBox>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
