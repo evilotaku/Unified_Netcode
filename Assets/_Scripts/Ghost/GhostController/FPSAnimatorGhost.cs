@@ -134,6 +134,10 @@ namespace Unity.Netcode
 
             _controllerPlayable = AnimatorControllerPlayable.Create(_graph, TargetAnimator.runtimeAnimatorController);
 
+            // With its controller still assigned, the Animator also runs its own graph, which never gets the parameters
+            // and overwrites this graph's pose every frame. This graph has its own copy of the controller.
+            TargetAnimator.runtimeAnimatorController = null;
+
             _mixer = AnimationMixerPlayable.Create(_graph, 4);
             _graph.Connect(_controllerPlayable, 0, _mixer, ControllerInput);
             _mixer.SetInputWeight(ControllerInput, 1f);
@@ -215,8 +219,8 @@ namespace Unity.Netcode
             _controllerPlayable.SetFloat(SpeedParam, speed);
             _controllerPlayable.SetBool(GroundedParam, NetworkGrounded.Value);
 
-            // Starter Assets controller requires MotionSpeed multiplier
-            _controllerPlayable.SetFloat(MotionSpeedParam, speed > 0.1f ? 0.5f : 0f);
+            // MotionSpeed is the locomotion blend tree's speed multiplier, so it must stay above 0 or idle freezes.
+            _controllerPlayable.SetFloat(MotionSpeedParam, speed > 0.1f ? 0.5f : 1f);
 
             // Apply Jump state
             _controllerPlayable.SetBool(JumpParam, _jumped);
